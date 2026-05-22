@@ -1,0 +1,31 @@
+COMANDOS GIT E GITHUB
+
+git init - Inicia novo projeto com git.
+
+git add <nome-arquivo>(index.html)/.(adiciona todos os arquivos dentro da pasta) - Adiciona os arquivos que estão prontos para serem commitados.
+
+git commit -m "mensagem-commit" - Commit os arquivos no histórico.
+
+git log - Mostra o histórico de commit feitos no arquivo.
+
+git status - Mostra como está o estado das ramificações, se tem alterações para serem commitadas ou alterações que já foram preparadas para serem commitadas, mas ainda não foram.
+
+git diff - Mostra o que foi alterado e o que tem de alteração na ramificação.
+
+git merge - Mescla as ramificações.
+
+git branch - Mostra a branch atual.
+
+git branch -b <nome-da-branch> - Cria uma nova branch a partir da branch atual que estamos, o nome colocado será o nome da branch.
+
+git checkout <nome-branch> - Altera entre as branchs a partir do nome digitado.
+
+git remote add <nome>(o nome geralmente é "origin") <url> - Adiciona um novo repositório remoto.
+
+git push <nome> <nome-da-branch> - Manda as alterações locais para o repositório remoto, pra cada branch.
+
+git pull <nome> <nome-da-branch> - Pega as alterações do repositório remoto e joga pra nossa maquina.
+
+git fetch - Atualiza o novo histórico local de acordo com o histórico salvo no repositório remoto. Sincronização do local com o remoto.
+ 		
+
