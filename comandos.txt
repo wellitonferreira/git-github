@@ -28,4 +28,4 @@ git pull <nome> <nome-da-branch> - Pega as alterações do repositório remoto e
 
 git fetch - Atualiza o novo histórico local de acordo com o histórico salvo no repositório remoto. Sincronização do local com o remoto.
  		
-
+git reset --hard <código de numeração do commit> - Faz resetar uma versão antiga do sistema ou retornar para versões mais recentes. 
